@@ -35,3 +35,9 @@ Contributions are welcome! If you have suggestions or improvements, please:
 3. Make your changes.
 4. Commit and push (`git commit -am 'Add new feature'`, `git push origin feature-branch`).
 5. Open a pull request.
+
+## Contact
+
+For any inquiries or to discuss this project further:
+
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/minna-cross/)
