@@ -9,30 +9,11 @@
     3. Fixed-Date Holidays:
     - Identifies fixed-date holidays using `DATE_FROM_PARTS`:
 
-    | Holiday          | Date         |
-    |------------------|--------------|
-    | New Year's Day   | January 1    |
-    | Juneteenth       | June 19      |
-    | Independence Day | July 4       |
-    | Veterans Day     | November 11  |
-    | Christmas Eve    | December 24  |
-    | Christmas Day    | December 25  |
-    | New Year's Eve   | December 31  |
-
     4. Variable-Date Holidays:
     - Identifies variable-date holidays with specific logic to ensure they fall on the correct weekdays
     - Validated holiday dates for accuracy from 2022 to 2026:
 
-    | Holiday                   | Date                          |
-    |---------------------------|-------------------------------|
-    | MLK Day                   | Third Monday in January       |
-    | Presidents' Day           | Third Monday in February      |
-    | Memorial Day              | Last Monday in May            |
-    | Labor Day                 | First Monday in September     |
-    | Indigenous Peoples' Day   | Second Monday in October      |
-    | Thanksgiving              | Fourth Thursday in November   |
-
-    5. Output:
+5. Output:
     - Includes comprehensive attributes for each date by row
 */
 
@@ -52,7 +33,21 @@ years AS (
 ),
 fixed_holidays AS (
 	-- Logic for calculating fixed-date holidays
-	-- Proprietary holiday logic obfuscated
+	/*  --- Proprietary Logic Obfuscated ---
+	    
+	    This section contains proprietary SQL logic for handling complex holiday calculations,
+	    business day computations, and other sensitive business rules that are unique to this solution.
+	
+	    To protect the intellectual property and unique methodology of the author, the detailed
+	    implementation has been redacted.
+	
+	    The overall structure and functionality remain intact, allowing users to understand the
+	    general flow of the query and its capabilities, but specific business rules have been removed.
+	
+	    For inquiries or further discussion about this project, please contact:
+	    - https://www.linkedin.com/in/minna-cross/
+	*/
+
 	SELECT 
 		DATE_FROM_PARTS(year, 1, 1) AS holiday_date, 'New Year''s Day' AS holiday_name
 	FROM years
