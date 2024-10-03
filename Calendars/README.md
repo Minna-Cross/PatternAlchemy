@@ -1,4 +1,4 @@
-# Recursive Date Calendar (SQL)
+# Business Calendar Logic (SQL)
 
 ## Why This Project Matters
 
