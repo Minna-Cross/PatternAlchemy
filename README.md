@@ -106,4 +106,4 @@ This project generates all prime numbers between 2 and 100 using recursive logic
 
 For any inquiries or to discuss these project further:
 
-- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/minna-cross/)
+- [LinkedIn Profile](https://www.linkedin.com/in/minna-cross/)
