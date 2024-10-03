@@ -55,5 +55,4 @@ This project demonstrates advanced SQL skills by implementing a **Recursive Date
 
 For any inquiries or to discuss this project further:
 
-- **Minna Cross**: [minnacross@gmail.com](mailto:minnacross@gmail.com)
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/minna-cross/)
