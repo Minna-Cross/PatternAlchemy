@@ -2,14 +2,14 @@
 
 ## Overview
 
-PatternAlchemy is a collection of SQL-based solutions that apply advanced techniques in **recursive CTEs**, **pattern generation**, and **business logic**. This repository demonstrates how SQL can be used to craft both real-world business applications (like **business calendar logic**) and technical pattern-generation projects (such as **3-letter codes** and **prime numbers**).
+PatternAlchemy is a collection of SQL-based solutions that apply advanced techniques in **recursive CTEs**, **pattern generation**, and **business logic**. This repository demonstrates how SQL can be used to craft both real-world business applications (such as business calendar logic) and technical pattern-generation projects (such as 3-letter codes and prime numbers).
 
-The name PatternAlchemy reflects the process of creating structured, dynamic patterns with precision, blending business logic with data generation techniques.
+The name PatternAlchemy reflects the process of creating structured, dynamic patterns with precision, blending business logic with data generation techniques to achieve seamless integration.
 
 Projects include:
 - **Business Calendar Logic**: A business-critical solution for managing business days for SLA compliance, financial reporting, and billing
 - **3-Letter Code Pattern Generator**: A demonstration of recursive SQL for generating all possible combinations useful for validation, reference creation, and system testing
-- **Prime Number Generator**: Recursive logic to generate prime numbers for optimization (i.e. data partitioning, hashing, optimization strategies) or mathematical purposes
+- **Prime Number Generator**: Recursive logic to generate prime numbers for optimization (i.e., data partitioning, hashing, optimization strategies) or mathematical purposes
 
 ---
 
@@ -17,7 +17,7 @@ Projects include:
 
 #### Why This Project Matters
 
-This solution addresses the need for **accurate business day calculations** in industries where **financial reporting**, **billing**, and **SLA tracking** depend on stable, reliable business calendars. By integrating with existing financial and operational data, this project ensures:
+This solution addresses the need for **accurate business day calculations** in industries where **financial reporting**, **billing**, and **SLA tracking** rely on stable and reliable business calendars. By integrating with existing financial and operational data, this project ensures:
 
 - Precise **client invoicing** and **billing cycles** that reflect only business days.
 - Compliance with **service-level agreements** by excluding weekends and holidays from SLA calculations.
