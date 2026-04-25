@@ -17,27 +17,17 @@
 */
 
 WITH RECURSIVE numbers AS (
-    -- Generate numbers from 2 to 100
-    SELECT 2 AS num
-    UNION ALL
-    SELECT num + 1
-    FROM numbers
-    WHERE num < 100
-),
-possible_primes AS (
-    -- Assume all numbers are prime initially
-    SELECT num
-    FROM numbers
+  SELECT 2 AS num
+  UNION ALL
+  SELECT num + 1 FROM numbers WHERE num < 100
 ),
 primes AS (
-    -- Eliminate non-primes by checking divisibility
-    SELECT p.num
-    FROM possible_primes p
-    LEFT JOIN numbers d
-    ON d.num < p.num AND p.num % d.num = 0
-    WHERE d.num IS NULL
+  SELECT p.num
+  FROM numbers p
+  WHERE NOT EXISTS (
+    SELECT 1 FROM numbers d
+    WHERE d.num BETWEEN 2 AND FLOOR(SQRT(p.num))
+      AND p.num % d.num = 0
+  )
 )
-
-SELECT num AS prime
-FROM primes
-ORDER BY prime;
+SELECT num AS prime FROM primes ORDER BY prime;
